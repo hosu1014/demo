@@ -30,6 +30,8 @@ public class HelloController {
 		
 		//insertMember();
 		
+		logger.debug("test");
+		
 		model.addAttribute("serverTime", System.currentTimeMillis());
 		return "hello";
 	}
