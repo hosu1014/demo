@@ -25,8 +25,7 @@ public class HelloController {
 	public String hello(Model model) {
 		
 		logger.debug("testtest");
-		
-		System.out.println("zzz");
+		logger.debug("debug Test");
 		
 		for(String profile : getActiveProfiles()) {
 			logger.info(profile);
