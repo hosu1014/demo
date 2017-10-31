@@ -24,10 +24,6 @@ public class HelloController {
 	@RequestMapping("/hello.do")
 	public String hello(Model model) {
 		
-		logger.debug("testtest");
-		logger.debug("debug Test");
-		logger.debug("github edit first.. then commit test");
-		
 		for(String profile : getActiveProfiles()) {
 			logger.info(profile);
 		}
